@@ -10,3 +10,4 @@ Predicting future land use in Auckland using Python
 
 `jupyter-notebook preprocess.ipynb`
 
+![land_use.gif](land_use.gif)

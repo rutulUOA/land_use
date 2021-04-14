@@ -3,3 +3,4 @@ contextily
 rtree
 pygeos
 geocube
+imageio
