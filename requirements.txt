@@ -2,4 +2,4 @@ geopandas
 contextily
 rtree
 pygeos
-
+geocube
