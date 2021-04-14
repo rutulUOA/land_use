@@ -129,6 +129,4 @@ dmypy.json
 .pyre/
 
 .vscode
-input
-output
-
+misc
