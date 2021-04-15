@@ -4,3 +4,4 @@ rtree
 pygeos
 geocube
 imageio
+GDAL
