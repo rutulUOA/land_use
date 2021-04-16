@@ -1,7 +1,8 @@
-geopandas
-contextily
-rtree
-pygeos
-geocube
-imageio
-GDAL
+contextily==1.1.0
+GDAL==3.0.4
+geocube==0.0.16
+geopandas==0.9.0
+imageio==2.9.0
+jupyter==1.0.0
+pygeos==0.9
+rasterio==1.2.0
