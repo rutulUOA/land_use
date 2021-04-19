@@ -121,11 +121,11 @@ class growthFactors():
 
 class fitmodel():
 
-    def __init__(self, landcoverClass, growthfactorsClass):
+    def __init__(self, landcoverClass, growthfactorsClass, kernelSize = 3):
         self.landcovers = landcoverClass
         self.factors = growthfactorsClass
         self.performChecks()
-        self.kernelSize = 3
+        self.kernelSize = kernelSize
 
     def performChecks(self):
         print("\nMatching the size of land cover and growth factors...")
