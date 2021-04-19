@@ -185,7 +185,7 @@ class fitmodel():
 
     def exportPredicted(self, outFileName):
         driver = gdal.GetDriverByName("GTiff")
-        outdata = driver.Create(outFileName, self.col, self.row, 1, gdal.GDT_UInt16) # option: GDT_UInt16, GDT_Float32
+        outdata = driver.Create(outFileName, self.col, self.row, 1, gdal.GetDataTypeByName('Byte'))
         outdata.SetGeoTransform(self.landcovers.ds_lc1.GetGeoTransform())
         outdata.SetProjection(self.landcovers.ds_lc1.GetProjection())
         outdata.GetRasterBand(1).WriteArray(self.predicted)
