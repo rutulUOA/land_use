@@ -13,3 +13,8 @@ Predicting future land use in Auckland using Python
 ![land_use.gif](land_use.gif)
 ![pop.gif](pop.gif)
 
+### Running with docker
+
+```docker
+docker run --rm --volume `pwd`:/app --publish 8888:8888 uoacer/land_use
+```
