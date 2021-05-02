@@ -33,7 +33,7 @@ Following is the order of the land cover data:
 #Importing all necessary libraries
 import os, math
 import numpy as np
-import gdal
+from osgeo import gdal
 from copy import deepcopy
 
 #Defining function to read raster file and return array and datasource
