@@ -6,4 +6,4 @@ imageio==2.9.0
 jupyter==1.0.0
 pygeos==0.9
 rasterio==1.2.0
-xlrd==1.2.0
+openpyxl==3.0.7
