@@ -14348,7 +14348,7 @@ a.anchor-link {
 
 <span class="c1"># Export the predicted layer</span>
 <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="s2">&quot;predictions&quot;</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">caModel</span><span class="o">.</span><span class="n">exportPredicted</span><span class="p">(</span><span class="s1">&#39;predictions/land_use_2018.tif&#39;</span><span class="p">)</span>
+<span class="n">caModel</span><span class="o">.</span><span class="n">exportPredicted</span><span class="p">(</span><span class="s1">&#39;predictions/predicted_land_use_2018.tif&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14417,7 +14417,7 @@ Spatial accuracy: 84.446986
 <span class="n">caModel</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">base</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 
 <span class="c1"># Export the predicted layer</span>
-<span class="n">outfile</span> <span class="o">=</span> <span class="s1">&#39;predictions/land_use_2023.tif&#39;</span>
+<span class="n">outfile</span> <span class="o">=</span> <span class="s1">&#39;predictions/predicted_land_use_2023.tif&#39;</span>
 <span class="n">caModel</span><span class="o">.</span><span class="n">exportPredicted</span><span class="p">(</span><span class="n">outfile</span><span class="p">)</span>
 </pre></div>
 
