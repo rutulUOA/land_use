@@ -9,7 +9,7 @@ Linux/Mac:
 
 Windows:
 
-- Install Python 3.6.8 64bit from https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe, and add it to your PATH
+- Install Python 3.9.5 64bit from https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe, and add it to your PATH
 - Install pipwin with the command `pip install pipwin`
 - Use pipwin to install the available binary wheels with the command `pipwin install -r requirements.txt`.
 - Install the remaining packages with `pip install -r requirements.txt`
